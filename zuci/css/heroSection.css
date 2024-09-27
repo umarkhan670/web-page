@@ -1,0 +1,99 @@
+body{
+    margin: 0 auto;
+    font-family: 'Ramaraja', serif;
+}
+
+#heroSection{
+    background-image: url(../image/105.jpg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+    
+}
+
+.head-1{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  500px;
+}
+
+.head-img{
+    width: 200px;
+}
+h1{
+    font-size: 55px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 20px;
+}
+.hero{
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    
+}
+.rgba-color{
+    background-color: rgba(0, 0, 0 , .8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width:1004px) {
+    .hero{
+        width:  50%;
+    }
+    
+    
+    h1{
+        letter-spacing: 15px;
+        font-size: 55px;
+        color: #fff;
+        text-align: center;
+    }  
+
+    .head-1{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+
+@media only screen and (max-width:768px) {
+    
+    .hero{
+        width:  66%;
+    }
+    
+    
+    
+    h1{
+        letter-spacing: 15px;
+        font-size: 55px;
+        color: #fff;
+        text-align: center;
+    }  
+    .head-1{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

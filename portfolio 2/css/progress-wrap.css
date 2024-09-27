@@ -1,0 +1,67 @@
+.progress-wrap.active-progress {
+    opacity: 1;
+    right: 50px;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.pro {
+    width: 95%;
+    visibility: visible;
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+    animation-name: slideInLeft;
+}
+
+.progress-wrap:is(.progress-wrap-dark) {
+    box-shadow: inset 0 0 0 2px #f6f8fa;
+    background-color: #1a1d1f;
+}
+
+.progress-wrap {
+    position: fixed;
+    bottom: 50px;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    border-radius: 50px;
+    z-index: 99;
+    visibility: hidden;
+    transform: translateY(15px);
+    transition: all 0.3s linear 0s;
+}
+
+.progress-wrap:is(.progress-wrap-dark)::after {
+    color: #f6f8fa;
+}
+
+.progress-wrap::after {
+    position: absolute;
+    content: "\f176";
+    font-family: "Font Awesome 5 Pro";
+    text-align: center;
+    line-height: 46px;
+    font-size: 20px;
+    left: 0;
+    top: 0;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    transition: all 200ms linear;
+}
+
+.progress-wrap:is(.progress-wrap-dark) svg.progress-circle path {
+    stroke: #42a66c;
+}
+
+.progress-wrap svg path {
+    fill: none;
+}
+
+.progress-wrap svg.progress-circle path {
+    stroke-width: 4;
+    box-sizing: border-box;
+}

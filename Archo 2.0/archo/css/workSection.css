@@ -1,0 +1,145 @@
+#workSection {
+    background-image: url(../image/dots.png);
+    background-size: auto;
+    background-repeat: repeat;
+    padding: 120px 0;
+}
+
+.section-head {
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.col-lag-1 {
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-lag-1 h6 {
+    color: #b19777;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.col-lag-1 h4 {
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.col-lag-2 {
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item-1 {
+    position: relative;
+}
+
+.item-1::after {
+    position: absolute;
+    content: '';
+    width: 126px;
+    border-top: 2px dashed #b19777;
+    top: 75px;
+    right: -62px;
+}
+
+.item-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    text-align: center;
+    position: relative;
+    background-image: url(../image/work-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.work-img-2 {
+    background-image: url(../image/work-img-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.work-img-3 {
+    background-image: url(../image/work-img-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.work-img-4 {
+    background-image: url(../image/work-img-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item>h3 {
+
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 150px;
+    position: relative;
+    z-index: 3;
+    text-align: center;
+
+}
+
+.item h3::after {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    right: 7px;
+    bottom: 7px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.cont h6 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cont p {
+    color: #888;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2;
+    margin: 0;
+}
+
+.numb {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 150px;
+    z-index: 3;
+    ;
+    opacity: 1;
+}
+
+@media screen and (max-width: 991px) {
+    #workSection {
+        padding-bottom: 70px;
+    }
+
+    .item {
+        margin-bottom: 50px;
+    }
+}

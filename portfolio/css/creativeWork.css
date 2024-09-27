@@ -1,0 +1,162 @@
+#creativeWork {
+    padding: 130px 0px;
+    height: 544px;
+    position: relative;
+    background: #6f34fe;
+    width: 100%;
+}
+
+#creativeWork::after {
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 361px;
+    height: 292px;
+    position: absolute;
+    background: url(../image/portfolio-right-img.png) no-repeat top right;
+}
+
+
+#creativeWork::before {
+    top: 0;
+    left: 0;
+    content: "";
+    width: 352px;
+    height: 344px;
+    position: absolute;
+    background: url(../image/portfolio-left-img.png) no-repeat top left;
+}
+
+.genric-title {
+    margin-bottom: 46px;
+
+}
+
+.genric-title h6 {
+    margin-bottom: 14px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.genric-title h2 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 54px;
+}
+
+.butn-container button {
+    border: none;
+    color: #fff;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.butn-container button:hover {
+    color: #fca61f;
+}
+
+.butn-container .active-button {
+    border-bottom: 4px solid #fca61f;
+    color: #fca61f;
+}
+
+.gallery {
+    position: absolute;
+    top: 60%;
+    left: 107px;
+    padding-bottom: 130px;
+    display: none;
+}
+
+.image-1 {
+    width: 710px;
+    height: 336px;
+    padding: 0px 15px;
+}
+
+.image-1 img {
+    width: 100% !important;
+    border-radius: 30px;
+}
+
+.image-2 img {
+    width: 100% !important;
+    border-radius: 30px;
+}
+
+.image-3 img {
+    width: 100% !important;
+    border-radius: 30px;
+}
+
+.image-4 img {
+    width: 100% !important;
+    border-radius: 30px;
+}
+
+.image-5 img {
+    width: 100% !important;
+    border-radius: 30px;
+}
+
+.image-2 {
+    width: 339px;
+    height: 336px;
+    padding: 0px 15px;
+    margin-bottom: 13px;
+
+}
+
+.portfolio-content {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    padding: 0 48px 0 20px;
+}
+
+.portfolio-title h4 {
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.portfolio-title p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 22px;
+    font-family: 'Lato', sans-serif;
+}
+
+.portfolio-content a i {
+    background: #fca61f;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.visi {
+    visibility: hidden;
+}
+
+.image-1:hover .visi,
+.image-2:hover .visi,
+.image-3:hover .visi,
+.image-4:hover .visi,
+.image-5:hover .visi {
+    visibility: visible;
+}
+
+.float-right {
+    float: right !important;
+}

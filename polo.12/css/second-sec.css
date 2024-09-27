@@ -1,0 +1,238 @@
+#page-content {
+    padding: 40px 0;
+}
+
+.grid-layout {
+    overflow: hidden;
+    margin-bottom: -2px !important;
+}
+
+.grid-layout {
+    position: relative;
+    display: block;
+    clear: both;
+    padding: 0;
+    height: 1781.81px;
+    padding-top: 40px;
+}
+
+.grid-item>a>img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-2-columns .grid-item.large-width {
+    width: 100%;
+}
+
+.image {
+    padding: 0px 30px 30px 0px;
+    position: absolute;
+    left: 0px;
+}
+
+.image-2 {
+    padding: 0px 30px 30px 0px;
+    position: absolute;
+    left: 0px;
+    top: 585px;
+}
+
+.image-3 {
+    padding: 0px 30px 30px 0px;
+    position: absolute;
+    left: 570px;
+    top: 585px;
+}
+
+.image-4 {
+
+    padding: 0px 30px 30px 0px;
+    position: absolute;
+    left: 0px;
+    top: 1183.41px;
+
+}
+
+.image-5 {
+    padding: 0px 30px 30px 0px;
+    position: absolute;
+    left: 570px;
+    top: 1183.41px;
+}
+
+.grid-2-columns .grid-item {
+    width: 50%;
+}
+
+hr.space {
+    border: none;
+    height: 50px !important;
+    color: #fff;
+}
+
+.space {
+    width: 100%;
+    display: block;
+    clear: both;
+    position: relative;
+}
+
+.project-description {
+    margin-bottom: 40px;
+}
+
+.project-description h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.project-description h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.portfolio-attributes {
+    color: #484848;
+    font-size: 12px;
+    overflow: hidden;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.portfolio-attributes .attribute {
+    float: left;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    text-align: left;
+    width: auto;
+}
+
+.portfolio-attributes .attribute strong {
+    opacity: .6;
+    border-bottom: 1px solid rgba(31, 31, 31, .05);
+    display: block;
+    width: auto;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+.btn-dark.btn-outline {
+    background-color: transparent;
+    color: #000;
+    border-color: #000;
+    border-width: 2px;
+    border-style: solid;
+    transition: all .3s linear;
+    margin-bottom: 6px;
+    outline: none;
+    line-height: 14px;
+    cursor: pointer;
+    font-family: poppins, sans-serif;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    text-decoration: none;
+    padding: 12px 18px;
+}
+
+.btn-dark.btn-outline:hover {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+
+.post-navigation {
+    border-top: 1px solid #eee;
+    display: inline-block;
+    list-style: outside none none;
+    min-height: 84px;
+    padding: 20px 0 0;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+}
+
+.post-navigation .post-prev-title {
+    padding-left: 40px;
+}
+
+.post-navigation .post-next span,
+.post-navigation .post-prev span {
+    display: block;
+    color: #484848;
+    font-size: 11px;
+    text-transform: uppercase;
+    opacity: .7;
+    margin-bottom: -6px;
+    margin-top: 3px;
+}
+
+.post-navigation .post-prev:before {
+    content: "\e92f";
+    font-family: inspiro-icons;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    transition: all .3s ease;
+    padding-top: 2px;
+    left: 10px;
+}
+
+.post-navigation .post-next:before {
+    content: "\e930";
+    font-family: inspiro-icons;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    transition: all .3s ease;
+    right: 10px;
+    padding-top: 2px;
+}
+
+.post-navigation .post-next,
+.post-navigation .post-prev {
+    position: absolute;
+    font-size: 16px;
+    max-width: 40%;
+    height: 44px;
+}
+
+.post-navigation a {
+    color: #484848;
+}
+
+.post-navigation .post-all {
+    font-size: 24px;
+    left: auto;
+    position: absolute;
+    right: 50%;
+    text-align: center;
+    top: 32px;
+    width: 12px;
+    opacity: .7;
+}
+
+.post-navigation .post-prev {
+    left: 25px;
+}
+
+.post-navigation .post-next {
+    right: 25px;
+    text-align: right;
+}
+
+.post-navigation .post-next-title {
+    padding-right: 40px;
+}
+
+.center {
+    float: none !important;
+    margin: 0 auto;
+}

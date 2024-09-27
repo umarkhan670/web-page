@@ -1,0 +1,109 @@
+#mySkills {
+    padding: 130px 0px;
+    background-color: #eff4ff;
+    position: relative;
+}
+
+#mySkills::before {
+    content: "";
+    width: 52px;
+    height: 59px;
+    position: absolute;
+    top: 13%;
+    right: 160px;
+    background: url(../image/half-circle-right-icon.png) no-repeat top left;
+    animation: mover 1s infinite alternate;
+    transition: animation linear 0.23s;
+}
+
+.skill-container::before {
+    content: "";
+    width: 35px;
+    height: 38px;
+    position: absolute;
+    bottom: 133px;
+    left: 2px;
+    background: url(../image/triangle-icon.png) no-repeat top left;
+    animation: skill 1s infinite alternate;
+    transition: animation linear 0.23s;
+}
+
+@keyframes mover {
+    100% {
+        bottom: 0%;
+        top: 10%;
+    }
+}
+
+@keyframes skill {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+#mySkills::after {
+    content: "";
+    width: 127px;
+    height: 404px;
+    position: absolute;
+    top: 207px;
+    right: 0;
+    background: url(../image/circle-bg-img.png) no-repeat top right;
+    animation: left-mover 1s infinite alternate;
+    transition: animation linear 0.23s;
+}
+
+
+@keyframes left-mover {
+    0% {
+        transform: translate(-8px);
+    }
+
+    50% {
+        transform: translate(-3px);
+    }
+
+    100% {
+        transform: translate(-3px);
+    }
+}
+
+
+
+.skill {
+    padding-left: 40px;
+}
+
+.skill h6 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 15px;
+    color: #6f34fe;
+}
+
+.skill h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 11px;
+    line-height: 48px;
+    color: #3f396d;
+}
+
+.skill p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #7d7789;
+}
+
+.p1 {
+    margin-bottom: 24px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #7d7789;
+}

@@ -1,0 +1,161 @@
+#page-title {
+    background-color: #7391ac;
+    min-height: 700px;
+}
+
+.page-title {
+    text-align: center;
+    padding: 0;
+
+}
+
+.visible h1 {
+    font-size: 44px;
+    font-weight: 500;
+    color: #1f1f1f;
+    letter-spacing: .5px;
+    display: block;
+}
+
+.portfolio-attributes {
+    color: #484848;
+    font-size: 12px;
+    overflow: hidden;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.portfolio-attributes .attribute {
+    float: left;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    text-align: left;
+    width: auto;
+}
+
+.portfolio-attributes.style1 .attribute {
+    display: inline-flex;
+    float: none;
+    margin-bottom: 6px;
+}
+
+.portfolio-attributes .attribute strong {
+    opacity: .6;
+    border-bottom: 1px solid rgba(31, 31, 31, .05);
+    display: block;
+    width: auto;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+.portfolio-attributes.style1 .attribute strong {
+    border: 0;
+    margin-right: 8px;
+    width: auto;
+}
+
+.portfolio-share h4 {
+    margin-bottom: 8px;
+    font-size: 19px;
+    line-height: 32px;
+    font-weight: 600;
+    font-family: poppins, sans-serif;
+    color: #fff;
+    letter-spacing: .5px;
+}
+
+.align-center {
+    display: inline-flex;
+    text-align: center;
+}
+
+
+
+.btn-slide {
+    border-radius: 50px !important;
+    display: table-cell;
+    opacity: 1;
+    overflow: hidden;
+    padding: 22px;
+    position: relative;
+    transition: width .4s ease 0s, background-color .4s ease 0s;
+    width: 46px;
+    line-height: 18px;
+}
+
+.btn-xs {
+    font-size: 10px;
+    height: 24px;
+    line-height: 22px;
+    padding: 0 10px;
+}
+
+.btn-slide.btn-xs {
+    padding: 14px;
+    width: 30px;
+    line-height: 26px;
+}
+
+.btn-light {
+    background-color: #fff;
+    border-color: #e6e8eb;
+    color: #4c5667;
+}
+
+.btn-slide.btn-xs>i {
+    left: 9px;
+    top: 7px;
+    font-size: 14px;
+}
+
+.btn-slide>i {
+    float: left;
+    left: 17px;
+    position: absolute;
+    top: 17px;
+    transition: all .8s ease 0s;
+}
+
+.btn-slide:hover>i {
+    transform: rotate(360deg);
+}
+
+.btn-slide>span {
+    left: 40px;
+    position: absolute;
+    text-align: left;
+    top: 13px;
+    transition: left .5s ease, opacity .5s ease;
+    white-space: nowrap;
+    opacity: 0;
+    font-size: 10px;
+}
+
+.btn-slide.btn-xs>span {
+    left: 28px;
+    top: 0;
+}
+
+
+.btn-slide:hover>span {
+    opacity: 1;
+}
+
+.btn-slide.btn-xs:hover {
+    width: 110px;
+    transition: width .5s linear, opacity .5s linear, background-color .5s linear;
+    background-color: #2250fc;
+
+}
+
+.btn-slide.m-l-6:hover {
+    width: 70px;
+    transition: width .5s linear, opacity .5s ease;
+
+}
+
+.btn-slide.m-l-5:hover {
+    width: 90px;
+    transition: width .5s linear, opacity .5s ease;
+
+}

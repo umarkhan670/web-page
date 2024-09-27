@@ -1,0 +1,119 @@
+.slid {
+    padding: 130px 0;
+    position: relative;
+}
+
+.slid::after {
+    content: "";
+    width: 52px;
+    height: 59px;
+    position: absolute;
+    top: 115px;
+    left: 72px;
+    background: url(../image/half-circle.png) left top no-repeat;
+    animation: 1s ease 0s infinite alternate none running mover;
+}
+
+.slid::before {
+    content: "";
+    width: 127px;
+    height: 404px;
+    position: absolute;
+    top: 132px;
+    left: 0px;
+    background: url(../image/circle-bg-left-img.png) left top no-repeat;
+    transform: translate(-29.8333px);
+}
+
+.text-content h6 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    line-height: 24px;
+    color: #6f34fe;
+}
+
+.text-content h2 {
+    color: #3f396d;
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-size: 52px;
+    line-height: 54px;
+}
+
+.text-content figure {
+    position: absolute;
+    margin-top: 9px;
+}
+
+.text-content figure img {
+    width: 100%;
+    height: auto;
+}
+
+.inner-content {
+    margin-left: 52px;
+}
+
+.inner-content p {
+    font-size: 20px;
+    line-height: 33px;
+    color: #7d7789;
+    font-family: 'Lato', sans-serif;
+}
+
+.auther-name {
+    color: #3f396d !important;
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+
+}
+
+.ceo {
+    font-size: 16px;
+    line-height: 16px;
+    color: #7d7789;
+    font-family: 'Lato', sans-serif;
+}
+
+.slid-btn-left {
+    background-color: #fca61f !important;
+    width: 54px;
+    height: 54px;
+    top: 110%;
+    left: 57px;
+    border-radius: 50%;
+    opacity: 1 !important;
+}
+
+.slid-btn-left:hover {
+    background-color: #6f34fe !important;
+    transition: all linear 0.23s;
+    left: 37px;
+}
+
+.slid-btn-right {
+    background-color: #fca61f !important;
+    width: 54px;
+    height: 54px;
+    top: 110%;
+    right: 70%;
+    border-radius: 50%;
+    opacity: 1 !important;
+}
+
+.slid-btn-right:hover {
+
+    right: 67%;
+    background-color: #6f34fe !important;
+    transition: all linear 0.23s;
+
+}
+
+.col-lg-5:hover .transform {
+    transform: scale(1.2);
+    transition: transform linear 0.23s;
+}

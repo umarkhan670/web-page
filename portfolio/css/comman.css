@@ -1,0 +1,13 @@
+body {
+    margin: 0 auto;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.container {
+    width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}

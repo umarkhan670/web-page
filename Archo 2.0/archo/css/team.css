@@ -1,0 +1,117 @@
+#team {
+    padding: 120px 0;
+    position: relative;
+    background-image: url(../image/dots.png);
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+
+.col-4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.team-containt>h6 {
+    color: #b19777;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.team-containt h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.team-containt p {
+    color: #888;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2;
+    margin: 0;
+}
+
+.team-container {
+    width: 665px;
+    position: relative;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-img {
+    width: 297px;
+    height: 443px;
+    padding: 0 15px;
+}
+
+.animate-img {
+    position: relative;
+}
+
+.animate-img:hover .social-info {
+    opacity: 1;
+    left: 15px;
+    overflow: hidden;
+
+}
+
+.social-info {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    background-color: #fff;
+    padding: 20px 10px;
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.social-info>a {
+    display: block;
+    font-size: 13px;
+    margin-top: 10px;
+    color: #b19777;
+}
+
+.info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.info>h5 {
+    font-size: 18px;
+    margin-bottom: 2px;
+    color: #000;
+}
+
+.info span {
+    color: #777;
+    font-size: 14px;
+}
+
+#slick-slide-control00 {
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+}
+
+@media screen and (max-width: 991px) {
+    .team {
+        background: #f8f4f3;
+    }
+
+    .team .team-container {
+        width: 100%;
+    }
+
+    .team .slick-slider {
+        margin-top: 50px;
+    }
+}

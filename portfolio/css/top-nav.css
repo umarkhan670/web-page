@@ -1,0 +1,32 @@
+header {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+
+
+.top-nav {
+    display: flex;
+}
+
+.top-nav li {
+    padding: 0 18px;
+    font-size: 20px;
+
+}
+
+.nav-color {
+    color: #fca61f !important;
+}
+
+.top-nav li a:hover {
+    color: #fca61f;
+}
+
+.top-nav li a {
+    color: #07003b;
+}
+
+a {
+    text-decoration: none !important;
+}

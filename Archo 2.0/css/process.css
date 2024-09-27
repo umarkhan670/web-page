@@ -1,0 +1,106 @@
+.p-rel {
+    position: relative;
+}
+
+.section-head {
+    position: relative;
+    margin: 0 auto 80px;
+}
+
+.section-head h6 {
+    color: #b19777;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.section-head h4 {
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.skills-circle .skill {
+    position: relative;
+}
+
+.skills-circle .skill span {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-75px) translateY(-98px);
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.skills-circle .skill h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.back-img-2 {
+    background-image: url(../img/pro-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center 85.725px;
+    /* height: 100vh; */
+}
+
+.down-1 {
+    visibility: visible;
+    animation-delay: 0.3s;
+    animation-name: fadeInDown;
+}
+
+.down-2 {
+    visibility: visible;
+    animation-delay: 0.5s;
+    animation-name: flipInX;
+}
+
+
+.black-img {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #02050b;
+    opacity: .7;
+    display: none;
+}
+
+#myCanvas {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #b19777;
+    border-radius: 50%;
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .blog-grid,
+    .skills-circle,
+    .process,
+    .team.tmgrid {
+        padding-bottom: 70px;
+    }
+
+    .skills-circle .skill {
+        margin-bottom: 50px;
+    }
+}

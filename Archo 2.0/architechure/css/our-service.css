@@ -1,0 +1,145 @@
+.section-padding {
+    padding: 120px 0;
+}
+
+.playfont {
+    font-family: 'Playfair Display', serif;
+}
+
+.bg-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-padding {
+    padding: 120px 0;
+}
+
+.section-head {
+    position: relative;
+    margin: 0 auto 80px;
+}
+
+.section-head h6 {
+    color: #b19777;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.fadeInDown {
+    visibility: visible;
+    animation-delay: 0.3s;
+    animation-name: fadeInDown;
+}
+
+.flipInX {
+    visibility: visible;
+    animation-delay: 0.5s;
+    animation-name: flipInX;
+}
+
+.section-head h4 {
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+
+.back-img {
+    visibility: visible;
+    animation-delay: 0.3s;
+    animation-name: fadeInUp;
+    background-image: url(../img/01.jpg);
+}
+
+.services .item-bx {
+    padding: 60px 40px;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-right: 0;
+    transition: all .4s;
+}
+
+.services .item-bx.bg-img {
+    position: relative;
+    border: 0;
+    z-index: 2;
+}
+
+.services .item-bx .icon {
+    font-size: 60px;
+    color: #b19777;
+    margin-bottom: 30px;
+}
+
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+
+p {
+    color: #888;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2;
+    margin: 0;
+}
+
+.services .item-bx .more {
+    font-size: 20px;
+    color: #000;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+
+.services .item-bx.bg-img:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    transition: all .4s;
+    z-index: -1;
+}
+
+.services .item-bx.bg-img:hover:after {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.services .item-bx:hover .more {
+    color: #b19777;
+}
+
+.services .item-bx:hover p {
+    color: #eee;
+}
+
+.services .item-bx:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+
+
+
+.back-img-2 {
+    visibility: visible;
+    animation-delay: 0.5s;
+    animation-name: fadeInUp;
+    background-image: url(../img/02.jpg);
+}
+
+.back-img-3 {
+    visibility: visible;
+    animation-delay: 0.7s;
+    animation-name: fadeInUp;
+    background-image: url(../img/03.jpg);
+}

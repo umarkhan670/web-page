@@ -1,0 +1,94 @@
+.bg-gray {
+    background-color: #f8f4f3;
+}
+
+.section-head {
+    position: relative;
+    margin: 0 auto 80px;
+}
+
+.section-head h6 {
+    color: #b19777;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.section-head h4 {
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.animate {
+    visibility: visible;
+    animation-delay: 0.5s;
+    animation-name: flipInX;
+}
+
+.down {
+    visibility: visible;
+    animation-delay: 0.3s;
+    animation-name: fadeInDown;
+}
+
+.back-img {
+    visibility: visible;
+    animation-delay: 0.3s;
+    animation-name: fadeInUp;
+    background-image: url(../img/back-img.jpg);
+}
+
+.services .bord-box {
+    overflow: hidden;
+}
+
+.services .item-bx {
+    padding: 60px 40px;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-right: 0;
+    transition: all .4s;
+}
+
+.services .item-bx .numb {
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #b19777;
+}
+
+.services .item-bx .more {
+    font-size: 20px;
+    color: black;
+
+}
+
+.services .item-bx:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+.services .item-bx:hover p {
+    color: #eee;
+}
+
+.services .item-bx:hover .more {
+    color: #b19777;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .section-head h4 {
+        font-size: 22px;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+}

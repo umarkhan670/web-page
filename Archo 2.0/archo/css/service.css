@@ -1,0 +1,85 @@
+.service-top {
+    padding: 100px 80px;
+    position: relative;
+    width: 80%;
+    margin-top: -40px;
+    z-index: 1;
+    background-color: #f8f4f3;
+}
+
+.service-containt {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.containt {
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.containt-num {
+    font-size: 40px;
+    font-weight: 400;
+    color: #b19777;
+    padding-right: 70px;
+    line-height: 1;
+    position: relative;
+    font-family: 'Teko', serif;
+    width: 95px;
+    height: 40px;
+}
+
+.containt-num::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    bottom: 17px;
+    background: #ddd;
+    width: 50px;
+    height: 1px;
+}
+
+.containt>h6 {
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.containt>p {
+    color: #888;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2;
+    margin: 0;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .services .service-top {
+        padding: 80px 10px 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .services .service-top {
+        width: 100%;
+        margin-top: 0;
+        padding: 100px 30px 70px;
+    }
+
+    .item-sm {
+        margin-bottom: 30px;
+        background: #fff;
+        padding: 30px;
+    }
+
+}

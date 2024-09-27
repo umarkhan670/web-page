@@ -1,0 +1,122 @@
+.footer-con {
+    padding-top: 68px;
+    padding-bottom: 20px;
+    background: #211e39;
+    position: relative;
+}
+
+.footer-con::before {
+    content: "";
+    width: 286px;
+    height: 288px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../image/footer-left-dotted-img.png) no-repeat top left;
+}
+
+.footer-con:after {
+    content: "";
+    width: 286px;
+    height: 288px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url(../image/footer-dotted-right-img.png) no-repeat top right;
+}
+
+.footer-content figure {
+    margin-bottom: 38px;
+}
+
+.footer-navbar ul {
+    margin-bottom: 36px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-navbar ul li {
+    padding: 0 18px;
+    border-left: 2px solid #4f4b73;
+    line-height: 18px;
+}
+
+.border-left-0 {
+    border-left: 0 !important;
+}
+
+.footer-navbar ul li a {
+    text-decoration: none;
+    color: #9692b0;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+}
+
+.footer-navbar ul li a:hover {
+    color: #fca61f;
+}
+
+.footer-navbar ul li a::after {
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    content: '';
+    position: absolute;
+    background-color: #fca61f;
+    transition: ease-in-out 0.3s;
+}
+
+.footer-navbar ul li a:hover::after {
+    width: 100%;
+}
+
+.footer-social-icon {
+    margin-bottom: 70px;
+}
+
+.footer-social-icon ul li a {
+    text-decoration: none;
+}
+
+.footer-social-icon ul li a i {
+    background: #fff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #255afc;
+    transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.footer-social-icon ul li:nth-child(2) a i {
+    color: #f33a7e;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+.footer-social-icon ul li:last-child a i {
+    color: #1d74b1;
+}
+
+.footer-social-icon ul li a i:hover {
+    color: #fff;
+    background-color: #255afc;
+    transform: translateY(-8px);
+}
+
+.copy-right-content {
+    border-top: 1px solid #38354d;
+}
+
+.copy-right-content p {
+    font-size: 14px;
+    color: #9692b0;
+    padding-top: 26px;
+    font-family: 'Lato', sans-serif;
+}

@@ -1,0 +1,111 @@
+.get-in-touch {
+    padding: 130px 0;
+}
+
+.form-main-inner-con h2 {
+    color: #3f396d;
+    font-weight: 700;
+}
+
+.contact-information {
+    background: #6f34fe;
+    border-radius: 28px;
+    padding: 70px 40px 50px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.contact-information ul li {
+    margin-bottom: 32px;
+}
+
+.contact-information li figure {
+    width: 60px;
+    height: 60px;
+    background: #fca61f;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.contact-information-content h5 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.contact-information-content p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.contact-information-content {
+    margin-left: 76px;
+}
+
+.form_result {
+    margin-bottom: 15px;
+}
+
+.contact-form input {
+    background: #fefeff;
+    border: none;
+    box-shadow: 0 0 85px 0 #e9eefc;
+    font-size: 16px;
+    color: #7d7789;
+    padding: 17px 30px;
+    border-radius: 30px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 23px;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.contact-form textarea {
+    height: 148px;
+    resize: none;
+    margin-bottom: 29px;
+}
+
+.contact-form textarea {
+    background: #fefeff;
+    border: none;
+    box-shadow: 0 0 85px 0 #e9eefc;
+    font-size: 16px;
+    color: #7d7789;
+    padding: 17px 30px;
+    border-radius: 30px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.butn-1 {
+    padding: 19px 64px 18px !important;
+    float: left;
+
+}
+
+.list-unstyled li:hover .animate {
+    transform: translateY(-8px);
+    transition: transform linear 0.23s;
+}
+
+/* .form-main-inner-con:after {
+    content: "";
+    width: 35px;
+    height: 38px;
+    position: absolute;
+    bottom: 140px;
+    right: -116px;
+    background: url(../image/corn-left-icon.png) no-repeat top left;
+    animation: mover 1s infinite alternate;
+    -webkit-animation: mover 1s infinite alternate;
+} */

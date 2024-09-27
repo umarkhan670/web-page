@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.p-rel {
+    position: relative;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justfy-between {
+    justify-content: space-between;
+}
+
+.justfy-content {
+    justify-content: center;
+}
+
+.positon-relative {
+    position: relative;
+}
+
+.m-b-30 {
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+
+}
+
+.vh-100 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    padding: 30px;
+}
+
+.align-item {
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

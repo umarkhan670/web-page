@@ -1,0 +1,112 @@
+.custom {
+    visibility: visible;
+    animation-delay: 0.3s;
+    animation-name: fadeInDown;
+}
+
+.custom-2 {
+    visibility: visible;
+    animation-delay: 0.5s;
+    animation-name: flipInX;
+}
+
+.testimonials.grid .testim {
+    position: relative;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonials.grid .item .quote-icon {
+    position: absolute;
+    top: -20px;
+    right: 12%;
+    width: 10%;
+    z-index: 2;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.testimonials.grid .item .cont {
+    padding: 50px 40px 40px;
+    border: 10px solid #f7f7f7;
+    border-top: 0;
+    position: relative;
+}
+
+
+.testimonials.grid .item .cont:before {
+    width: 5%;
+    right: 0;
+}
+
+.testimonials.grid .item .cont:after,
+.testimonials.grid .item .cont:before {
+    content: '';
+    position: absolute;
+    height: 10px;
+    background: #f7f7f7;
+    top: 0;
+}
+
+.testimonials.grid .item .info {
+    margin-top: 30px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.testimonials.grid .item .info .author {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: table-cell;
+}
+
+.testimonials.grid .item .info h6 {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.testimonials.grid .item .info h6 span {
+    color: #b19777;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 5px;
+    display: block;
+}
+
+.testimonials.grid .item .info:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 25px solid #f7f7f7;
+    border-right: 30px solid transparent;
+    position: absolute;
+    left: 100px;
+    top: -30px;
+}
+
+.item {
+    position: relative;
+}
+
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.testimonials.grid .item {
+    position: relative;
+    margin: 0 20px;
+}

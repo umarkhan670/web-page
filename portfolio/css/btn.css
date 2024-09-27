@@ -1,0 +1,145 @@
+.butn {
+    background: #fca61f;
+    color: #fff;
+    padding: 16px 43px 15px;
+    font-size: 20px;
+    border-radius: 35px;
+    line-height: 20px;
+    text-decoration: none;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: rgb(233, 238, 252) 0px 0px 85px 0px;
+
+}
+
+
+
+.butn:hover {
+    transform: translateY(-5px);
+    transition: transform linear 0.23s;
+
+}
+
+.butn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.butn:hover {
+    background-color: #6f34fe;
+    transition: all linear 0.20s;
+    margin-bottom: 2px;
+
+
+}
+
+.butn:hover a {
+    color: #fff !important;
+}
+
+.seen-btn {
+    margin-left: 28px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #6f34fe;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #6f34fe;
+    position: relative;
+    text-decoration: none;
+    top: 12px;
+}
+
+.seen-btn::after {
+    left: 0px;
+    bottom: -2px;
+    width: 0px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background: #6f34fe;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+.seen-btn:hover {
+    color: #fca61f;
+}
+
+.seen-btn:hover::after {
+    background: #fca61f;
+    width: 100%;
+    transition: background-color linear .3s;
+
+}
+
+/* #button{
+    background-color: #FF9800;
+    width: 82px;
+    height: 82px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 57px;
+    right: 113px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: spineer 2s infinite;
+}
+#button .show{
+    opacity: 1;
+    visibility: visible;
+}
+#button::after{
+    content: "fa-arrow-up-long";
+    font-family: "Font Awesome 5 pro";
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 50px;
+    color: #fff;
+} */
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+#button {
+    background-color: #FF9800;
+    width: 82px;
+    height: 82px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 57px;
+    right: 113px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: spineer 2s infinite;
+    cursor: pointer;
+}
+
+
+/* #button::after {
+    content: "\f062";
+    font-family: "Font Awesome 5 pro";
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 50px;
+    color: #fff;
+} */
+
+@keyframes spineer {
+    from {
+        box-shadow: 0 0 0 0 rgba(255, 161, 34, .99);
+    }
+
+    to {
+        box-shadow: 0 0 0 45px rgba(255, 161, 34, .01);
+    }
+}

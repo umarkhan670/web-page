@@ -1,0 +1,152 @@
+.cont-map {
+    position: relative;
+    z-index: 2;
+}
+
+.cont-map .contact-form,
+.cont-map .contact-map {
+    padding: 0;
+}
+
+.cont-map .contact-form form {
+    position: relative;
+    top: -50px;
+    right: -50px;
+    padding: 60px 30px;
+    background: #fff;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 5%);
+    border: 10px solid #f7f7f7;
+    border-radius: 5px;
+}
+
+.section-head {
+    position: relative;
+    margin: 0 auto 80px;
+}
+
+
+.section-head h6 {
+    color: #b19777;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+
+.section-head h4 {
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.cont-map .contact-form form input,
+.cont-map .contact-form form textarea {
+    padding: 15px;
+    background: #f7f7f7;
+    border: 0;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.cont-map .contact-form form textarea {
+    height: 160px;
+}
+
+.btn-curve {
+    background: transparent;
+    padding: 12px 35px;
+    border: 1px solid #1e1e1e;
+    font-family: 'Teko', sans-serif;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn-curve span {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 2;
+    transition: all .8s;
+    color: #fff;
+}
+
+.btn-curve.btn-color {
+    background: #b19777;
+    border-color: #b19777;
+}
+
+.btn-curve:after {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    right: -30px;
+    bottom: 130%;
+    background: #1e1e1e;
+    transform: rotate(-5deg);
+    transition: all .8s;
+}
+
+.btn-curve.btn-color:after {
+    background: #fff;
+}
+
+.btn-curve:hover span {
+    color: #1e1e1e;
+}
+
+.btn-curve:hover:after {
+    bottom: -30px;
+    transform: rotate(0deg);
+}
+
+.cont-map .contact-map {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 70%;
+    z-index: -1;
+}
+
+
+.cont-map .bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+    z-index: -1;
+}
+
+.map {
+
+    background-image: url(../img/map-img.jpg);
+}
+
+
+@media screen and (max-width: 991px) {
+    .cont-map {
+        background: #f8f4f3;
+    }
+
+    .cont-map .contact-form form {
+        top: 0;
+        right: 0;
+        margin: 120px 0;
+    }
+
+    .cont-map .contact-map {
+        position: relative;
+        height: 400px;
+        width: 100%;
+    }
+
+    .cont-map .map {
+        display: none;
+    }
+}

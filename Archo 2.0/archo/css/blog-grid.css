@@ -1,0 +1,133 @@
+.blog-grid {
+    position: relative;
+}
+
+.bg-gray {
+    background-color: #f8f4f3;
+}
+
+.section-head {
+    position: relative;
+    margin: 0 auto 80px;
+}
+
+.section-head h6 {
+    color: #b19777;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    visibility: visible;
+    animation-delay: 0.3s;
+    animation-name: fadeInDown;
+    margin-left: 0px !important;
+}
+
+.section-head h4 {
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 2px;
+    visibility: visible;
+    animation-delay: 0.5s;
+    animation-name: flipInX;
+    color: #000;
+}
+
+.blog-grid.center .item {
+    text-align: center;
+    visibility: visible;
+    animation-delay: 0.3s;
+    animation-name: fadeInUp;
+}
+
+.blog-grid .item .post-img .img {
+    overflow: hidden;
+}
+
+.blog-grid.center .item .cont {
+    margin-left: 4%;
+    padding: 40px;
+}
+
+.blog-grid .item .cont {
+    position: relative;
+    padding: 40px 30px 0;
+    width: 92%;
+    margin-left: 8%;
+    margin-top: -40px;
+    background: #fff;
+}
+
+.blog-grid .item .info {
+    margin-bottom: 15px;
+}
+
+.blog-grid .item .info a {
+    color: #777;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+.blog-grid .item .info a:last-of-type {
+    margin-right: 0;
+}
+
+.blog-grid.center .item .cont h5 {
+    font-size: 21px;
+}
+
+.blog-grid .item h5 {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.blog-grid .item .more {
+    color: #b19777;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #b19777;
+    transition: all .2s;
+}
+
+.blog-grid .item .more:hover {
+    border-color: transparent;
+}
+
+.blog-grid.center .item .cont h5 {
+    font-size: 21px;
+}
+
+a:hover,
+span:hover {
+    text-decoration: none;
+}
+
+.blog-grid .item .post-img:hover img {
+    transform: scale(1.1, 1.1);
+    transition: all linear 0.23s
+}
+
+.playfont a {
+    color: #000;
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+    .blog-grid .item {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .blog-grid.center .item .cont {
+        padding: 30px 20px;
+    }
+}

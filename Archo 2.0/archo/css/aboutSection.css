@@ -1,0 +1,307 @@
+#aboutSection {
+    padding: 120px 0;
+    position: relative;
+}
+
+.about-containt,
+.img,
+.sub-img,
+.years {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.title-containt {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.exp-content {
+    position: relative;
+    z-index: 2;
+}
+
+.sub-title {
+    color: #b19777;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 40px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.sub-title::before {
+    content: "";
+    width: 25px;
+    height: 1px;
+    background: #b19777;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.about-containt>p {
+    color: #888;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2;
+    margin: 0;
+}
+
+.about-containt>ul {
+    margin: 30px 0 0;
+    padding: 0 !important;
+    list-style-type: none;
+}
+
+.about-containt>ul>li {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.about-containt>ul>li::after {
+    content: '/';
+    position: relative;
+    margin: 0 15px;
+    color: #777;
+}
+
+.img-1 {
+
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.sub-img-1 {
+    width: 160px;
+    height: 255px;
+
+}
+
+.img-2 {
+    width: 350px;
+    height: 225px;
+}
+
+.wow-img {
+    width: 302px;
+    height: 220px;
+}
+
+.years-exp {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 10px solid #f8f4f3;
+
+}
+
+.exp-text {
+    position: absolute;
+    bottom: 40px;
+    left: -10px;
+    padding: 10px 0;
+    width: max-content;
+    background: #fff;
+}
+
+.exp-h2 {
+    font-size: 70px;
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+
+.exp-h2::after {
+    content: '';
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #f8f4f3;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    z-index: -1;
+
+}
+
+.btn-curve {
+    background: transparent;
+    padding: 12px 35px;
+    border: 1px solid #1e1e1e;
+    font-family: 'Teko', sans-serif;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn-curve.btn-color {
+    background: #b19777;
+    border-color: #b19777;
+}
+
+
+.btn-curve span {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 2;
+    transition: all .8s;
+}
+
+.btn-curve.btn-color span {
+    color: #fff;
+}
+
+.btn-curve:hover span {
+    color: #000;
+}
+
+.btn-curve.btn-color:after {
+    background: #fff;
+}
+
+.btn-curve:after {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    right: -30px;
+    bottom: 130%;
+    background: #1e1e1e;
+    transform: rotate(-5deg);
+    transition: all .8s;
+}
+
+.btn-curve:hover {
+    outline: none;
+}
+
+.btn-curve:hover:after {
+    bottom: -30px;
+    transform: rotate(0deg);
+}
+
+.ab-exp .pattern {
+    height: 100%;
+    width: 100%;
+}
+
+.bg-repeat {
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+.anim {
+    visibility: visible;
+    animation-delay: 0.3s;
+    animation-name: fadeInUp;
+}
+
+.anim-1 {
+    visibility: hidden;
+    animation-delay: 0.3s;
+    animation-name: none;
+}
+
+.imago-1 {
+    visibility: visible;
+}
+
+.imago-2 {
+    visibility: hidden;
+    animation-name: none;
+}
+
+.imago.animated {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.pattern {
+    background-image: url(../image/line-pattern1.png);
+}
+
+.ab-exp .years-exp {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 10px solid #f8f4f3;
+}
+
+.ab-exp .years-exp .exp-text {
+    position: absolute;
+    bottom: 40px;
+    left: -10px;
+    padding: 10px 0;
+    width: max-content;
+    background: #fff;
+}
+
+.ab-exp .years-exp .exp-text h2 {
+    font-size: 70px;
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+
+.ab-exp .years-exp .exp-text h2:after {
+    content: '';
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #f8f4f3;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    z-index: -1;
+}
+
+.ab-exp .years-exp .exp-text h6 {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 991px) {
+
+    .exp-content {
+        margin-top: 50px;
+    }
+
+    .ab-exp {
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    h2 {
+        font-size: 28px;
+    }
+
+    .exp-content ul {
+        display: block;
+    }
+
+    .btn-curve {
+        padding: 8px 15px;
+    }
+
+    .btn-curve span {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .ab-exp .years-exp {
+        height: 300px;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,113 @@
+/* 
+U : laxmiiforex_f3leha
+P : UGwcb8$fd8QT2EZ */
+.discover-btn{
+    padding: 14px 35px;
+    border: 1px solid #1e1e1e;
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    background-color: #b19777;
+    border-color: #b19777;
+    position: relative;
+    overflow: hidden;
+    
+
+}
+.discover-btn a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.discover-btn:hover{
+    background-color:#fff;
+    transition:all linear 0.23s;
+    border: 1px solid #b19777;
+
+}
+.discover-btn:hover a{
+    color: #b19777;
+}
+
+
+.carousal-btn{
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    width: 55px;
+    height: 110px;
+}
+.befor-btn{
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 13px;
+    font-weight: 900;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: block;
+    cursor: pointer;
+    color: #fff;
+  
+}
+
+.after-btn{
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 13px;
+    font-weight: 900;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: block;
+    cursor: pointer;
+    right: 0;
+    bottom: 0;
+    top: auto;
+    color: #fff;
+    
+}
+
+
+.navbar-toggle{
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: none;
+}
+
+.icon-bar{
+    
+    color: #fff;
+
+}
+.toggle{
+    font-weight: 900;
+    line-height: 1;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .navbar-toggle{
+        display: block;
+        justify-content: space-evenly;
+    }
+
+    .navbar-toggle:hover .navbar-navigation{
+       display: block;
+    }
+    
+@media only screen and (max-width:768px) {
+    .carousal-btn{
+        right: 15px;
+        bottom: 15px;
+    }
+}
+    
+}

@@ -1,0 +1,256 @@
+.pages-header {
+    background-image: url(../img/pg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 0px;
+    height: 75vh;
+}
+
+.black {
+    background: #02050b;
+    opacity: .5;
+    position: absolute;
+    width: 100%;
+    height: 75vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.container {
+    z-index: 2;
+    position: relative;
+}
+
+.justify-content {
+    justify-content: space-between;
+}
+
+.aling-item {
+    align-items: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.form-group {
+    margin-bottom: 1rem !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.top {
+    top: 36%;
+}
+
+.pages-header .cont h1 {
+    font-size: 75px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.pages-header .cont .path a {
+    color: #fff;
+    font-size: 17px;
+}
+
+.pages-header .cont .path span {
+    color: #fff !important;
+}
+
+.pages-header .cont .path .active {
+    color: #b19777;
+}
+
+
+
+
+/* section */
+
+.custom-font {
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
+}
+
+.section-padding {
+    padding: 120px 0;
+}
+
+.mb-80 {
+    margin-bottom: 80px !important;
+}
+
+.blog-pg .posts .item .img {
+    position: relative;
+}
+
+
+.image-1 {
+    transform: translate3d(0px, 8px, 0px) scale(1.1);
+    will-change: transform;
+    transition: transform 1s cubic-bezier(0, 0, 0, 1) 0s;
+}
+
+.blog-pg .posts .item .img .info {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 15px;
+    background: #fff;
+}
+
+.blog-pg .posts .item .img .info .date {
+    text-align: center;
+    color: #b19777;
+}
+
+.blog-pg .posts .item .img .info .date h5 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.blog-pg .posts .item .img .info .date .num {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    color: #b19777;
+}
+
+.color {
+    color: #b19777;
+}
+
+.content .title a {
+    color: #02050b;
+}
+
+.more {
+    color: #191514;
+}
+
+.blog-pg .posts .item .img .info .date .num:after {
+    content: '';
+    width: 30px;
+    height: 1px;
+    background: #eee;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 15px);
+}
+
+.blog-pg .posts .item .content {
+    padding-top: 25px;
+}
+
+
+.blog-pg .posts .item .content .tags {
+    margin-bottom: 10px;
+}
+
+.blog-pg .posts .item .content .tags a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #b19777;
+    padding-right: 20px;
+    position: relative;
+}
+
+.blog-pg .posts .item .content h4 {
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #888;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2;
+    margin: 0;
+}
+
+.blog-pg .posts .item .content .more {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 60px;
+    position: relative;
+    transition: all .5s;
+}
+
+.blog-pg .posts .item .content .more:after {
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: #090909;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transition: all .5s;
+}
+
+.blog-pg .posts .item .content .more:hover {
+    padding-left: 40px;
+}
+
+.blog-pg .posts .item .content .more:hover:after {
+    width: 30px;
+}
+
+
+
+.blog-pg .posts .pagination {
+    margin: 80px auto 0;
+    width: max-content;
+    text-align: center;
+}
+
+
+.blog-pg .posts .pagination span {
+    text-align: center;
+    margin: 0 2px;
+}
+
+
+.blog-pg .posts .pagination span.active a {
+    border-color: #b19777;
+    color: #b19777;
+}
+
+
+.blog-pg .posts .pagination span a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #eee;
+    font-size: 18px;
+    color: #02050b;
+    font-weight: 700;
+}
+
+
+
+@media screen (max-width: 425px) {
+    .pages-header .cont h1 {
+        font-size: 50px;
+    }
+
+    .pages-header .cont .path a {
+        font-size: 13px;
+    }
+
+    .fothead,
+    .item-left {
+        margin: 15px 0;
+    }
+}
